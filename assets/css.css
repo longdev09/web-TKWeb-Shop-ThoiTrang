@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Phan css chung */
+#main{
+    font-family: 'Quicksand', sans-serif;
+    /* background-color: #f5f8fd; */
+}
+hr{
+    border: 1px rgb(237, 242, 242) solid ;
+}
+a{
+    color: black;
+    text-decoration: none !important;
+}
+a:hover{
+    color: none;
+
+}
+.doc{
+    color: aliceblue;
+}
+
+@keyframes example {
+    from {
+      transform: translateY(-70px);
+    }
+  
+    to {
+      transform: translateY(0px);
+    }
+  }
+
+  /* [class *= "col"]{
+    padding: 5px;
+    
+} */
+
+/* Thuoc tin js */
+.header-menus{
+    
+    background-color: #fff;
+}
+
+.header.close-header-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 900;
+    animation: example 1s both;
+    
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+.header-contacts.close-heade-contacts{
+    display: none;
+}
+
+
+.icon-header{
+   
+    padding: 12px;
+}
+.icon-header .icon-header-list{
+    color: #fff;
+    font-size: 20px;
+    padding: 12px;
+}
+.contact-list{
+    padding: 15px;
+}
+.contact-list a{
+    color: #fff;
+
+}
+.contact-list a:hover{
+    color: #fff;
+}
+.header-contacts{
+    background-color: black;
+
+}
+.header-wrap-content{
+    display: flex;
+    align-items: center;
+    
+}
+.icon-search{
+    display: flex;
+}
+
+/* content-section */
+
+.content-section{
+    background-color:  #f5f8fd;
+}
+.banner-contact{
+    padding-bottom: 40px;
+}
+.section-heading{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.heading-title{
+   
+    margin: 0 0 8px;
+    display: inline-block;
+    min-width: 70%;
+    background: black;
+    box-shadow: 0px 0px 0px 2px rgb(37 42 43 / 80%);
+    padding: 8px 15px 10px;
+    border-radius: 50px;
+}
+.heading-title > a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.listproduct-row{
+    margin-left: -5px;
+    margin-right: -5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-body{
+    padding: 0px  5px 16px 16px !important;
+}
+.product-details h3{
+    font-size: 14px;
+}
+.product-price .price{
+    margin-right: 5px;
+    font-weight: 600;
+}
+.product-price .price-del{
+    color: #878c8f;
+    text-decoration: line-through;
+    font-weight: 300;
+    font-size: 13px;
+}
+.pro-sale{
+    position: absolute;
+    left: 5px;
+    background: red;
+    letter-spacing: 0.5px; 
+    margin: 5px; 
+}
+.pro-sale span{
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+}
+.listproduct-row .col-md-3{
+    padding: 5px;
+}
+
+
