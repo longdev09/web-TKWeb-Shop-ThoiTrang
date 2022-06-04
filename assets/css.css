@@ -63,17 +63,44 @@ a:hover{
 .icon-header{
    
     padding: 12px;
+    position: relative;
 }
 .icon-header .icon-header-list{
     color: #fff;
     font-size: 20px;
     padding: 12px;
+    position: relative;
+}
+
+.header-acc-dropdown{
+
+    background-color: #fff;
+    position: absolute;
+    z-index: 400;
+    right: 71px;
+    top: 39px;
+    border-radius: 4px;
+    box-shadow: 0 -4px 32px rgb(0 0 0 / 20%);
+    width: 365px;
+    display: none;
+}
+.header-dropdown-content{
+    padding: 15px;   
+    
+}
+.header-acc-title p{
+    text-align: center;
+    margin-bottom: 0;
+}
+.header-acc-title h3{
+    font-size: 15px;
 }
 .contact-list{
     padding: 15px;
 }
 .contact-list a{
     color: #fff;
+    font-size: 13px;
 
 }
 .contact-list a:hover{
@@ -96,6 +123,7 @@ a:hover{
 
 .content-section{
     background-color:  #f5f8fd;
+   
 }
 .banner-contact{
     padding-bottom: 40px;
@@ -105,7 +133,9 @@ a:hover{
     margin-top: 40px;
     text-align: center;
 }
-
+.section-product-collection{
+    padding-bottom: 40px;
+}
 .heading-title{
    
     margin: 0 0 8px;
@@ -133,6 +163,7 @@ a:hover{
 }
 .product-details h3{
     font-size: 14px;
+    color: black;
 }
 .product-price .price{
     margin-right: 5px;
@@ -144,12 +175,31 @@ a:hover{
     font-weight: 300;
     font-size: 13px;
 }
+.input-acc-login input{
+    width: 100%;
+    margin-top: 12px;
+    height: 50px;
+    padding: 12px;
+    font-size: 12px;
+}
+.btn-login{
+    background-color: black;
+    color: #fff;
+    font-size: 15px !important;
+    border: none !important;
+    border-radius: 3px;
+}
+.btn-login:hover{
+    background-color: rgb(142, 19, 19);
+
+}
 .pro-sale{
     position: absolute;
     left: 5px;
     background: red;
     letter-spacing: 0.5px; 
     margin: 5px; 
+    z-index: 2;
 }
 .pro-sale span{
     color: #fff;
@@ -160,4 +210,88 @@ a:hover{
     padding: 5px;
 }
 
+/* footer */
+.footer-main{
 
+}
+.footer-content{
+
+    background-color: #fff;
+    padding: 40px 0px;
+}
+
+.footer-infor{
+    margin-bottom: 12px;
+}
+.footer-nav-icon li{
+    border: 1px solid black;
+    width: 32px;
+    height: 32px;
+    margin-left: 12px;
+    border-radius: 4px;
+}
+.footer-nav-icon li a{
+    
+    width: 32px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 14px;
+    display: block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: black;
+    
+}
+.footer-nav-icon li:hover a{
+    background-color: black;
+    color: #fff;
+}
+.footer-lion .title-footer{
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer-content-lion-text{
+    color: #878c8f;
+    font-size: 14px;
+}
+.footer-content-lion-text .add-footer-content-lion{
+    list-style-type: none;
+}
+.footer-content-lion .footer-Navlink a{
+    color: #878c8f;
+   
+}
+.footer-content-lion .footer-Navlink {
+    padding-left: 17px;
+}
+.footer-lion-content {
+    color: #878c8f;
+}
+.footer-copyright{
+    padding: 12px 0px;
+    text-align: center;
+    color: #878c8f;
+    font-size: 13px;
+
+}
+
+
+/* css hover img */
+.box{
+    position: relative;
+   
+}
+.hover-img,
+.img-tr{
+    transition: all linear 0.5s;
+}
+.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.box:hover img{
+    opacity: 1;
+}
