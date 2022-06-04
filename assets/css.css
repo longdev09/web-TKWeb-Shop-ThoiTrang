@@ -88,6 +88,16 @@ a:hover{
     padding: 15px;   
     
 }
+.site_account {
+    float: left;
+    font-size: 12px;
+    color: #878c8f;
+    margin-top: 12px;
+}
+.site_account a{
+    color: #878c8f;
+}
+
 .header-acc-title p{
     text-align: center;
     margin-bottom: 0;
