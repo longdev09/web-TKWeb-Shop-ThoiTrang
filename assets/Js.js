@@ -43,11 +43,12 @@ iconHeaderList.onclick = function OpenHeaderAccDropdown()
 {   var isOpen = headerAccDropdown.clientHeight === 0;
     if( isOpen)
     {
-        headerAccDropdown.style.display='block'
+        headerAccDropdown.classList.add('open-header-acc-dropdown');
     }
     else
     {
-        headerAccDropdown.style.display='none'
+        headerAccDropdown.classList.remove('open-header-acc-dropdown');
+
 
     }
 }

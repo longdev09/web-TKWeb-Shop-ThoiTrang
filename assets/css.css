@@ -71,7 +71,11 @@ a:hover{
     padding: 12px;
     position: relative;
 }
+.header-acc-dropdown.open-header-acc-dropdown{
+    display: block;
 
+    
+}
 .header-acc-dropdown{
 
     background-color: #fff;
