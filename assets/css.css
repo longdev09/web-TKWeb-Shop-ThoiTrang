@@ -44,7 +44,14 @@ a:hover{
     
     background-color: #fff;
 }
-
+.nav-link{
+    color: black !important;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.nav-link:hover{
+    color: red !important;
+}
 .header.close-header-wrapper{
     position: fixed;
     top: 0;
@@ -290,7 +297,9 @@ a:hover{
 
 }
 
-
+.content-account{
+    padding: 50px 0;
+}
 /* css hover img */
 .box{
     position: relative;
@@ -308,4 +317,53 @@ a:hover{
 }
 .box:hover img{
     opacity: 1;
+}
+
+/* create acc */
+
+.content-create-acc{
+    
+    max-width: 620px; 
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 25px 30px 30px;
+}
+
+
+.input-create-acc input{
+    width: 100%;
+    margin-top: 25px;
+    height: 50px;
+    padding: 12px;
+    font-size: 13px;
+    color: #5c5c5c;
+    border: none; 
+    background-color: #ededed;
+    border-radius: 3px;
+}
+.input-create-acc .input-gt{
+    height: 12px;
+    width: 17px;
+    
+}
+.input-create-acc input[type=text]:focus {
+    background-color: #fff;
+  }
+.input-create-acc .button-create-acc{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.input-create-acc .button-create-acc button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: black;
+}
+.input-create-acc .button-create-acc button:hover{
+    background-color: #fff;
+    color: black;
+   border: 1px black solid;
 }
